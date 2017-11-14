@@ -1,0 +1,30 @@
+{
+  "name": "angular-notifications",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/username/repo"
+  },
+  "author": {
+    "name": "Walter Ribeiro",
+    "email": "walterjunioranalise@gmail.com"
+  },
+  "keywords": [
+    "angular"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/username/repo/issues"
+  },
+  "main": "angular-notifications.umd.js",
+  "module": "angular-notifications.js",
+  "jsnext:main": "angular-notifications.js",
+  "typings": "angular-notifications.d.ts",
+  "peerDependencies": {
+    "@angular/animations": "^5.0.1",
+    "@angular/common": "^4.0.0",
+    "@angular/core": "^4.0.0",
+    "rxjs": "^5.1.0",
+    "zone.js": "^0.8.4"
+  }
+}
