@@ -1,9 +1,9 @@
 {
-  "name": "angular-notifications",
+  "name": "angular4-simple-notifications",
   "version": "0.1.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/username/repo"
+    "url": "https://github.com/walteribeiro/angular-notifications"
   },
   "author": {
     "name": "Walter Ribeiro",
@@ -14,12 +14,12 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/username/repo/issues"
+    "url": "https://github.com/walteribeiro/angular-notifications/issues"
   },
-  "main": "angular-notifications.umd.js",
-  "module": "angular-notifications.js",
-  "jsnext:main": "angular-notifications.js",
-  "typings": "angular-notifications.d.ts",
+  "main": "angular4-simple-notifications.umd.js",
+  "module": "angular4-simple-notifications.js",
+  "jsnext:main": "angular4-simple-notifications.js",
+  "typings": "angular4-simple-notifications.d.ts",
   "peerDependencies": {
     "@angular/animations": "^5.0.1",
     "@angular/common": "^4.0.0",

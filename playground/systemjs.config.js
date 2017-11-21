@@ -24,7 +24,7 @@
       '@angular/router': 'npm:@angular/router/bundles/router.umd.js',
       '@angular/forms': 'npm:@angular/forms/bundles/forms.umd.js',
       '@angular/animations': 'npm:@angular/animations/bundles/animations.umd.js',
-      'angular-notifications': 'npm:angular-notifications/',
+      'angular4-simple-notifications': 'npm:angular4-simple-notifications/',
 
       // other libraries
       rxjs: 'npm:rxjs',
@@ -44,8 +44,8 @@
       rxjs: {
         defaultExtension: 'js'
       },
-      'angular-notifications': {
-        main: 'angular-notifications.umd.js',
+      'angular4-simple-notifications': {
+        main: 'angular4-simple-notifications.umd.js',
         defaultExtension: 'js'
       }
     }

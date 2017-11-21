@@ -1,5 +1,5 @@
 {
-  "name": "angular-notifications",
+  "name": "angular4-simple-notifications",
   "version": "0.1.0",
   "scripts": {
     "build": "gulp build",
@@ -14,7 +14,8 @@
     "playground": "concurrently \"npm run build:watch\" \"npm run playground:build\" \"npm run lite\"",
     "test": "jest",
     "test:watch": "jest --watch",
-    "test:ci": "jest --runInBand"
+    "test:ci": "jest --runInBand",
+    "pub": "npm publish dist"
   },
   "jest": {
     "preset": "jest-preset-angular",

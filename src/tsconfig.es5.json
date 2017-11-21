@@ -21,8 +21,8 @@
     "annotateForClosureCompiler": true,
     "strictMetadataEmit": true,
     "skipTemplateCodegen": true,
-    "flatModuleOutFile": "angular-notifications.js",
-    "flatModuleId": "angular-notifications"
+    "flatModuleOutFile": "angular4-simple-notifications.js",
+    "flatModuleId": "angular4-simple-notifications"
   },
   "files": [
     "./index.ts"

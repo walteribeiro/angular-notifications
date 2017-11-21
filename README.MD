@@ -5,19 +5,20 @@
 To install this library, run:
 
 ```bash
-$ npm install angular-notifications --save
+$ npm i angular4-simple-notifications --save
 ```
 
 and then from your Angular `AppModule`:
 
 ```typescript
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
-// Import your library
-import { SimpleNotificationsModule } from 'angular-notifications';
+// Import the Module
+import {SimpleNotificationsModule} from 'angular4-simple-notifications';
 
 @NgModule({
   declarations: [
@@ -26,8 +27,8 @@ import { SimpleNotificationsModule } from 'angular-notifications';
   imports: [
     BrowserModule,
 
-    // Specify your library as an import
-    SimpleNotificationsModule
+    BrowserAnimationsModule, // Need to import for the animations
+    SimpleNotificationsModule.forRoot() // Use forRoot() method
   ],
   providers: [],
   bootstrap: [AppComponent]
