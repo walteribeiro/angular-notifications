@@ -94,6 +94,3 @@ Give a ⭐️ if this project helped you!
 
 Copyright © 2020 [Walter Ribeiro](https://github.com/walteribeiro).<br />
 This project is [MIT](https://github.com/walteribeiro/angular-notifications/blob/master/LICENSE) licensed.
-
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
