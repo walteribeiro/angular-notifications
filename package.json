@@ -1,5 +1,6 @@
 {
   "name": "angular4-simple-notifications",
+  "description": "Simple notifications for Angular apps",
   "version": "0.1.1",
   "scripts": {
     "build": "gulp build",
@@ -23,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/walteribeiro/angular-notifications"
+    "url": "git+https://github.com/walteribeiro/angular-notifications.git"
   },
   "author": {
     "name": "Walter Ribeiro",
